@@ -1,0 +1,1204 @@
+/*
+Theme Name: absolute sales power
+Theme URI: 
+Author: Alicia Molnar
+Author URI: 
+Description: 
+Requires at least: 6.6
+Tested up to: 6.6
+Requires PHP: 7.0
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: absolute-sales-power
+Tags: one-column, custom-colors, custom-menu, custom-logo, editor-style, featured-images, full-site-editing, block-patterns, rtl-language-support, sticky-post, threaded-comments, translation-ready, wide-blocks, block-styles, style-variations, accessibility-ready, blog, portfolio, news
+*/
+/* Container styling for Glassmorphism */
+/*  */
+.footer-h2 {
+    position: relative;
+    /* Positioning for pseudo-element */
+    padding-right: 90px;
+    /* Space for the arrow */
+}
+.footer-h2 a {
+    text-decoration: none;
+    color: inherit;
+}
+.footer-h2 a:hover {
+    text-decoration: none;
+}
+.footer-h2::after {
+    content: '→';
+    /* Unicode arrow */
+    color: white;
+    background-color: #b92d32;
+    padding: 10px;
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%) rotate(-45deg);
+    font-size: 40px;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+}
+.service-col-head {
+    position: relative;
+    display: inline-block;
+    padding-right: 50px;
+}
+.service-col-head::after {
+    content: '→';
+    /* Unicode arrow */
+    color: white;
+    background-color: #000000;
+    margin-left: 25px;
+    padding: 4px;
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%) rotate(-45deg);
+    font-size: 14px;
+    width: 16px;
+    height: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    transition: background-color 0.3s ease;
+    /* Smooth transition for hover effect */
+}
+/* Hover effect */
+.service-col-head:hover::after {
+    background-color: #35817c;
+    transform: translateY(-50%) rotate(-45deg) scale(1.1);
+}
+/*  */
+/*  */
+.about-profile-image {
+    transform: skew(-10deg);
+}
+.ser-prog-img {
+    clip-path: polygon(50% 0%, 100% 100%, 0% 100%);
+    /* Triangle shape */
+}
+.custom-keynote-img {
+    transition: transform 0.3s ease-in-out;
+    transform-origin: center center;
+}
+.custom-keynote-img:hover {
+    transform: scale(1.03);
+}
+.col-img {
+    transition: transform 0.3s ease-in-out;
+    transform-origin: center center;
+}
+.col-img:hover {
+    transform: scale(1.03);
+}
+/* Optional: Hover effect */
+.service-link:hover .service-col-head::after {
+    background-color: #a52428;
+    /* Darken the background on hover */
+}
+.registration-wpcf7-form {
+    max-width: 1000px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 20px;
+}
+.custom-input-text,
+.custom-input-email {
+    width: 100%;
+    padding: 15px 20px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 30px;
+    box-sizing: border-box;
+    outline: none;
+    margin-bottom: 15px;
+}
+.custom-input-text::placeholder,
+.custom-input-email::placeholder {
+    color: #888;
+}
+.custom-submit-button {
+    width: 50%;
+    padding: 12px;
+    font-size: 16px;
+    color: #fff !important;
+    background-color: #000 !important;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    text-transform: uppercase;
+    display: block;
+    margin: 0 auto;
+    font-family: Poppins, sans-serif;
+    font-size: 14px;
+}
+.custom-submit-button:hover {
+    background-color: #35817c !important;
+    color: #fff;
+}
+/* header-nav bars stylings  */
+/*  */
+/*  */
+/* services page --cover  */
+/* Services page --cover */
+.text-container {
+    display: flex;
+    gap: 20px;
+    /* Adjust spacing as needed */
+}
+.text {
+    font-size: 32px;
+    /* Normal font size */
+    transition: transform 0.5s ease, color 0.5s ease, font-weight 0.5s ease;
+}
+/* Highlighted effect */
+.highlighted {
+    color: #35817c;
+    font-weight: bold;
+    /* Increase font weight */
+    transform: translateX(180px) scale(2);
+    /* Moves text to the right and makes it significantly bigger */
+    font-size: 64px;
+    /* Increase font size significantly */
+    transition: color 0.5s ease, font-weight 0.5s ease, transform 0.5s ease, font-size 0.5s ease;
+}
+/* responsive */
+/* General styles */
+.Nav_but {
+    display: none !important;
+}
+/* Media query for screen sizes up to 768px */
+@media (max-width: 768px) {
+    .but01 {
+        display: none !important;
+    }
+    .text {
+        font-size: 25px !important;
+    }
+    .highlighted {
+        font-size: 36px;
+    }
+    .Services_sub_head {
+        font-size: 20px !important;
+    }
+    .tab-container {
+        padding-left: 8% !important;
+        padding-right: 8% !important;
+    }
+    .services-button-tab1 .wp-block-button__link {
+        font-size: 14px !important;
+    }
+    .Services_But {
+        flex-direction: column;
+    }
+    .Services_buttons {
+        width: 100%;
+        /* Ensure buttons take full width */
+        margin-bottom: 10px;
+        /* Add space between buttons */
+    }
+    .Services_buttons .wp-block-button__link {
+        height: 50px;
+        /* Equal height for all buttons */
+        font-size: 16px;
+        /* Set equal font size */
+        border-radius: 5px;
+        padding: 0 20px;
+        width: 80%;
+        /* Increase the button width to 80% */
+    }
+    .services-button-tab1 {
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+        display: flex;
+        /* Use Flexbox to center the content */
+        justify-content: center;
+        /* Center horizontally */
+        align-items: center;
+        /* Center vertically */
+        text-align: center;
+        /* Ensure text inside the elements is centered */
+    }
+    /* Optional: If you want to apply this to child elements inside .services-button-tab1 */
+    .services-button-tab1 .wp-block-buttons {
+        display: flex;
+        /* Ensure buttons are also using Flexbox */
+        justify-content: center;
+        /* Center buttons horizontally */
+        align-items: center;
+        /* Center buttons vertically */
+        width: 100%;
+        /* Take full width of the container */
+    }
+    .Services_Blocks {
+        padding-left: 3%;
+        padding-right: 3%;
+    }
+    .service-col-effect {
+        min-height: 0 !important;
+        padding-left: 3%;
+        padding-right: 3%;
+    }
+    .Master_Program {
+        padding-left: 5% !important;
+        padding-right: 5% !important;
+        padding-top: 0;
+        margin-top: 0;
+    }
+    .prog-mem-col1 {
+        padding-top: 0 !important;
+    }
+    /* 	.Master_sub{
+   margin-top:0 !important;
+}
+	.Master_Group{
+  padding-left:0 !important;
+	padding-right:0 !important;	
+}
+	.Master_Coul{
+  padding-left:0 !important;
+	padding-right:0 !important;	
+} */
+    .col-img {
+        height: auto !important;
+    }
+    .Nav_but {
+        display: flex !important;
+        justify-content: center;
+        width: 100%;
+        margin-top: 10px;
+    }
+    .Site_Mobile_logo {
+        width: 50% !important;
+    }
+    .Site_Mobile_title {
+        display: none;
+    }
+    .Home_page_Title {
+        font-size: 30px !important;
+    }
+    .Home_page_banner_video {
+        min-height: 150px !important;
+    }
+    .text-container {
+        min-height: 150px !important;
+    }
+    .Home_mobile_p {
+        font-size: 11px !important;
+    }
+    .Home_mobile_btn {
+        width: 200%;
+        margin-bottom: 0 !important;
+    }
+    .btn-txt {
+        font-size: 12px !important;
+    }
+    .Home_text_con {
+        padding-left: 5% !important;
+        padding-right: 5% !important;
+    }
+    .Home_banner_mob {
+        min-height: 130px !important;
+        padding-left: 3% !important;
+        padding-right: 3% !important;
+    }
+    .Home_mobile_p01 {
+        font-size: 14px !important;
+    }
+    .Home_mobile_p02 {
+        font-size: 14px !important;
+        margin-top: 0 !important;
+    }
+    .Home_last_mob {
+        padding-left: 13%;
+        padding-right: 13%;
+    }
+    .footer-h2 {
+        font-size: 30px !important;
+    }
+    .wp-block-navigation__responsive-container-content .wp-block-navigation__container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        padding: 0;
+    }
+    .wp-block-navigation-item {
+        margin-bottom: 10px;
+    }
+    .he {
+        padding-bottom: 0 !important;
+    }
+    .Parent_row {
+        display: flex;
+        flex-direction: column;
+        /* Stack the rows vertically */
+        align-items: center;
+        /* Center the rows */
+        padding-left: 20px;
+        /* Adjust as needed */
+        padding-right: 20px;
+    }
+    .Footer_con {
+        width: 100%;
+        /* Full width for centering */
+        text-align: center;
+        margin-bottom: 20px;
+        /* Add space between image and links */
+    }
+    .Footer_link {
+        display: flex;
+        flex-direction: row;
+        /* Display links in a row */
+        justify-content: center;
+        gap: 15px;
+        width: 100%;
+    }
+    .wp-block-navigation.is-vertical {
+        flex-direction: row;
+        justify-content: center;
+    }
+    .Footer_logo img {
+        width: auto !important;
+    }
+    .Footer_Parent_02 {
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+    }
+    .Footer_Parent_02 ul {
+        margin-right: 30% !important;
+    }
+    .Home_formula_con {
+        flex-direction: column;
+        /* Stack the columns vertically */
+    }
+    /* Change the order of the columns */
+    .Home_formula_con1:first-child {
+        order: 2;
+        padding-bottom: 0 !important;
+        padding-top: 0 !important;
+        padding-left: 0 !important;
+    }
+    .Home_formula_con1:last-child {
+        order: 1;
+        padding-bottom: 0 !important;
+        padding-left: 8%;
+        padding-top: 0 !important;
+    }
+    .Home_Register_form {
+        padding-bottom: 0 !important;
+    }
+    .About_para {
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+    }
+    .about-profile-image {
+        max-width: 60%;
+        max-height: auto !important;
+    }
+    .confetti-section {
+        padding-left: 8% !important;
+        padding-right: 8% !important;
+    }
+}
+body {
+    overflow-x: hidden;
+}
+/* Glassmorphism styling for custom-form-1 */
+.custom-form-1.wpcf7-form {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 12px;
+    background: rgba(255, 255, 255, 0.1);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+}
+/* Styling input fields and text area */
+.custom-form-1 input[type="text"],
+.custom-form-1 input[type="email"],
+.custom-form-1 input[type="tel"],
+.custom-form-1 textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 8px;
+    background-color: rgba(255, 255, 255, 0.5);
+}
+/* Button Styling */
+.custom-form-1 input[type="submit"] {
+    background-color: #35817c;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+.custom-form-1 input[type="submit"]:hover {
+    background-color: #286963;
+}
+/*  */
+/*  */
+/* services-column hover effect in services page  */
+.service-col-effect {
+    transition: transform 0.3s ease;
+    /* Smooth transition for zoom */
+    min-height: 780px;
+}
+.service-col-effect:hover {
+    transform: scale(1.05);
+    /* Zoom in slightly on hover */
+}
+.service-col-effect-1 {
+    transition: transform 0.3s ease;
+    /* Smooth transition for zoom */
+    min-height: 600px;
+}
+.service-col-effect-1:hover {
+    transform: scale(1.05);
+    /* Zoom in slightly on hover */
+}
+.calendly-wrapper {
+    display: block;
+    width: 450px;
+    margin: 50px auto;
+    padding: 20px 0 0 0;
+    border-radius: 15px;
+    background: #e0e0e0;
+    box-shadow: 8px 8px 15px #bebebe, -8px -8px 15px #ffffff;
+    transition: box-shadow 0.3s ease;
+}
+.calendly-inline-widget {
+    width: 100%;
+    /* Ensures the Calendly widget fills the wrapper */
+    height: 900px;
+    /* Adjust height as needed */
+    background: #ffffff;
+    /* Set to white to remove any grey color */
+}
+.calendly-wrapper:hover {
+    box-shadow: 10px 10px 20px #b3b3b3, -10px -10px 20px #ffffff;
+}
+.calendly-inline-widget {
+    width: 100%;
+    height: 900px;
+}
+/* Mobile view adjustments */
+@media screen and (max-width: 480px) {
+    .calendly-column {
+        padding-right: 0 !important;
+        padding-left: 0 !important;
+    }
+    .calendly-wrapper {
+        width: 100%;
+        padding: 0px;
+        margin: 20px auto;
+    }
+    .calendly-inline-widget {
+        height: 600px;
+        width: 100% !important;
+    }
+    .Services_buttons a {
+        padding-top: 15px !important;
+    }
+    .lets-talk-form {
+        padding: 15px;
+        /* Less padding for small screens */
+        margin: 10px;
+        /* Reduce margin */
+        width: 100%;
+        /* Full width on mobile */
+    }
+    .lets-talk-form label {
+        font-size: 14px;
+        /* Smaller font size for labels */
+    }
+    .lets-talk-form-input {
+        font-size: 16px;
+        /* Larger font size for easier typing */
+        padding: 12px;
+        /* Adjust input padding */
+    }
+    .lets-talk-form input[type="submit"] {
+        font-size: 16px;
+        /* Ensure button text is readable */
+        padding: 12px 24px;
+        /* Adjust button padding */
+    }
+}
+/* Tablet view adjustments */
+@media screen and (max-width: 768px) {
+    .calendly-column {
+        padding-right: 0 !important;
+        padding-left: 0 !important;
+    }
+    .calendly-wrapper {
+        width: 90%;
+        padding: 15px;
+        margin: 30px auto;
+    }
+    .calendly-inline-widget {
+        height: 750px;
+    }
+}
+/* / Ensure the contact form is working in responsive / */
+/* Tablet view adjustments */
+@media screen and (max-width: 768px) {
+    .lets-talk-form {
+        padding: 20px;
+        margin: 20px;
+        width: 90%;
+        /* Slightly smaller width on tablets */
+    }
+    .lets-talk-form label {
+        font-size: 15px;
+        /* Adjust label size */
+    }
+    .lets-talk-form-input {
+        font-size: 15px;
+        /* Adjust input font size */
+        padding: 12px;
+    }
+    .lets-talk-form input[type="submit"] {
+        font-size: 16px;
+        padding: 12px 24px;
+    }
+}
+/* footer logo background */
+/* Keyframes for left and right movement with zoom effect */
+@keyframes moveLeftRightZoom {
+    0% {
+        transform: translateX(0) scale(1);
+    }
+    25% {
+        transform: translateX(-30px) scale(1.1);
+    }
+    50% {
+        transform: translateX(0) scale(1);
+    }
+    75% {
+        transform: translateX(30px) scale(1.1);
+    }
+    100% {
+        transform: translateX(0) scale(1);
+    }
+}
+/* Footer Logo Background with Left-Right Movement, Zoom, and No Shadow */
+.footer-logo-bg {
+    width: 250px;
+    height: 250px;
+    background-color: #f0f0f0;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    animation: moveLeftRightZoom 6s ease-in-out infinite;
+    margin: 0 auto;
+    transition: transform 0.3s ease;
+}
+/* Style for the Submit Button */
+/* Style for the Submit Button and Stripe Payment Link */
+.lets-talk-form input[type="submit"],
+#stripe-payment-link.submit-button {
+    background-color: #35817c;
+    color: white;
+    padding: 12px 24px;
+    font-family: 'Poppins';
+    font-size: 18px;
+    font-weight: normal;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border: 2px solid #35817c;
+    /* Border color */
+    border-radius: 10px;
+    transition: all 0.3s ease;
+}
+/* Hover effect for Submit Button */
+.lets-talk-form input[type="submit"]:hover {
+    background-color: black;
+    color: white;
+    border-color: black;
+}
+/* Hover effect for Stripe Payment Link */
+#stripe-payment-link.submit-button:hover {
+    background-color: black;
+    color: white;
+    border-color: black;
+}
+/* nav menu  */
+.wp-block-navigation-item__content {
+    padding: 12px 24px;
+    margin-right: 10px;
+    /* Space between items */
+    background-color: transparent;
+    color: #333;
+    text-decoration: none !important;
+    border-radius: 10px;
+    transition: all 0.3s ease;
+}
+.wp-block-navigation-item__content:hover {
+    background-color: #35817c !important;
+    color: white !important;
+    transform: scale(1.05);
+    text-decoration: none !important;
+}
+.header-btn:hover {
+    background-color: black !important;
+    color: white !important;
+}
+.home-how-btn :hover {
+    background-color: white !important;
+    color: black !important;
+}
+/* Enhanced Hover Effect: Slight zoom-in for more interactivity */
+.footer-logo-bg:hover {
+    transform: scale(1.05);
+    /* Slight zoom-in on hover for a modern feel */
+}
+/* About Us page effect  */
+.confetti-section {
+    position: relative;
+    overflow: hidden;
+}
+.confetti {
+    position: absolute;
+    top: 0;
+    width: 10px;
+    height: 10px;
+    background-color: red;
+    /* Adjust color as needed */
+    opacity: 0.8;
+    animation: fall linear forwards;
+}
+@keyframes fall {
+    to {
+        transform: translateY(100vh);
+        opacity: 0;
+    }
+}
+@media screen and (max-width: 768px) {
+    /* 	.wp-block-columns {
+		padding-right:0 !important;
+		padding-left:0 !important;
+	} */
+    .prog-mem-col1 {
+        width: 90%;
+        padding: 10 !important;
+        margin: 0 !important;
+    }
+    .prog-mem-col1 img {
+        width: 100%;
+        max-width: 100%;
+        padding: 0;
+        margin: 0;
+    }
+    .prog-mem-col1 h2,
+    .prog-mem-col1 button {
+        width: 100%;
+        text-align: center;
+    }
+    .prog-mem-col1 button {
+        width: 50%;
+        text-align: center;
+    }
+}
+.Alicia_button:hover {
+    background-color: black;
+    color: white;
+}
+.contact-form {
+    max-width: 450px;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 12px;
+    background: rgba(255, 255, 255, 0.15);
+    /* Transparent white */
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.2);
+    /* Subtle shadow */
+    backdrop-filter: blur(10px);
+    /* Blurring effect */
+    -webkit-backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    /* Border for glass effect */
+}
+/* Label styling */
+.contact-form label {
+    display: block;
+    font-weight: bold;
+    margin-top: 15px;
+    color: #ffffff;
+    /* Text color */
+}
+/* Input and textarea fields styling */
+.contact-form .form-field {
+    width: 100%;
+    padding: 12px;
+    margin-top: 5px;
+    border: none;
+   background-color: #35817c;
+    color: #000;
+    /* Text color */
+    font-size: 16px;
+    box-sizing: border-box;
+}
+/* Styling for the submit button */
+.contact-form .submit-button {
+    width: 100%;
+    padding: 12px;
+    margin-top: 20px;
+    background-color: #35817c;
+    /* Button color */
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+/* Hover effect for the submit button */
+.contact-form .submit-button:hover {
+    background-color: #286963;
+    /* Darker shade for hover */
+}
+.lets-talk-form {
+    padding: 20px;
+    max-width: 600px;
+    margin: auto;
+    font-family: Arial, sans-serif;
+    color: #333;
+}
+.lets-talk-form label {
+    display: block;
+    margin-bottom: 15px;
+    font-size: 16px;
+    /*     font-weight: bold; */
+    color: #333;
+}
+.lets-talk-form .lets-talk-form-input {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ddd;
+    /*     border-radius: 5px; */
+    font-size: 14px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    box-sizing: border-box;
+    color: #333;
+    background-color: #f2f8f7;
+}
+.lets-talk-form .lets-talk-form-input:focus {
+    border: 1px solid black;
+    background-color: #fff;
+    outline: none;
+}
+.lets-talk-form .lets-talk-form-input::placeholder {
+    color: #999;
+}
+.lets-talk-form [type="submit"] {
+    background-color: transparent;
+    color: #000;
+    border: 1px solid black;
+    padding: 30px 45px;
+    font-size: 16px;
+    font-weight: bold;
+    /*     border-radius: 5px; */
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+.lets-talk-form [type="submit"]:hover {
+    background-color: #2e6f68;
+    color: #fff;
+    border: 1px solid transparent;
+    /* 	margin-bottom:1px; */
+}
+.calendly-wrapper {
+    margin-top: 0 !important;
+    /* Adjust as needed */
+    margin-bottom: 0 !important;
+    padding-top: 0;
+    /* Use padding if needed instead of margin for finer control */
+}
+/* Optional: Control the iframe's height or other settings */
+.calendly-wrapper .calendly-inline-widget {
+    margin-top: -30px !important;
+    /* Adjust as needed */
+}
+.registration-form {
+    max-width: 400px;
+    /*     width: 100%; */
+    margin: 0 auto;
+    padding: 20px;
+}
+.custom-input-text,
+.custom-input-email {
+    width: 100%;
+    padding: 15px 20px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 30px;
+    box-sizing: border-box;
+    outline: none;
+    margin-bottom: 15px;
+}
+.custom-input-text::placeholder,
+.custom-input-email::placeholder {
+    color: #888;
+}
+.custom-submit-button {
+    width: 50%;
+    padding: 12px;
+    font-size: 16px;
+    color: #000;
+    background-color: transparent;
+    border: 1px solid black;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    text-transform: uppercase;
+    display: block;
+    margin: 0 auto;
+    font-family: Poppins, sans-serif;
+    font-size: 14px;
+}
+.custom-submit-button:hover {
+    background-color: #2e6f68;
+    color: #fff;
+    border: 1px solid transparent;
+}
+.services-form label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: normal;
+}
+.services-form input,
+.services-form select,
+.services-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    background-color: #f9f9f9;
+    /* Light background for input fields */
+    font-size: 16px;
+    color: #333;
+    box-sizing: border-box;
+    /* No border-radius */
+}
+.services-form textarea {
+    resize: vertical;
+}
+.services-form input[type="submit"] {
+    background-color: #35817c;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    padding: 10px 20px;
+    font-size: 16px;
+    width: auto;
+    /* Ensures the button is not full-width */
+    margin-top: 10px;
+}
+.services-form input[type="submit"]:hover {
+    background-color: #2c6e5c;
+}
+.services-form span {
+    color: red;
+}
+.services-form input::placeholder {
+    font-size: 18px;
+    background-color: #f2f8f7;
+}
+.services-form .service-form-input:focus {
+    border: 1px solid black;
+    background-color: #fff;
+    outline: none;
+}
+.services-form [type="submit"] {
+    background-color: transparent;
+    color: #000;
+    border: 1px solid black;
+    padding: 30px 45px;
+    font-size: 16px;
+    font-weight: bold;
+    /*     border-radius: 5px; */
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+.services-form [type="submit"]:hover {
+    background-color: #2e6f68;
+    color: #fff;
+    border: 1px solid transparent;
+    /* 	margin-bottom:1px; */
+}
+@media(max-width:480px) {
+	
+	
+	.custom-who-home-row{
+padding-bottom:10px !important;
+}
+	.custom-who-title{
+width:100% !important;
+}
+    .Master_Coul .wp-block-column-is-layout-flow {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    footer .Footer_Parent_02 {
+        justify-content: center !important;
+    }
+    footer .footer-logo-bg {
+        /* 		border-radius: 50%; */
+        width: 150px !important;
+        height: 150px !important;
+    }
+    footer .footer-logo-bg img {
+        width: auto !important;
+        height: auto !important;
+    }
+    footer .wp-container-core-group-is-layout-21 p {
+        font-size: 12px !important;
+    }
+    .service-col-effect {
+        max-height: 750px !important;
+    }
+    .service-col-effect-1 {
+        max-height: 650px !important;
+    }
+    .service-col-effect:hover,
+    .service-col-effect-1:hover {
+        transform: none !important;
+    }
+    h1 {
+        font-size: 27px !important;
+    }
+    h2 {
+        font-size: 20px !important;
+    }
+    p {
+        font-size: 14px !important;
+    }
+    h3 {
+        font-size: 18px !important;
+    }
+    h5 {
+        font-size: 16px !important;
+    }
+    .wp-block-button {
+        font-size: 14px !important;
+    }
+    .page-id-12 .wp-block-cover-is-layout-constrained {
+        padding-right: 0 !important;
+    }
+    body .all-right-para {
+        font-size: 12px !important;
+    }
+    footer .footer-h2 a {
+        font-size: 23px !important;
+    }
+    .footer-h2::after {
+        width: 20px !important;
+        height: 20px !important;
+    }
+}
+@media(max-width:600px) {
+    .Master_Coul .wp-block-column-is-layout-flow {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .Footer_Parent_02 {
+        display: flex !important;
+        justify-content: center !important;
+    }
+}
+html,
+body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+@media (max-width: 768px) {
+    .Footer_Parent_02 {
+        display: flex !important;
+        justify-content: center !important;
+    }
+    .custom-lets-talk-flex {
+        display: flex;
+        flex-direction: column !important;
+    }
+    .Master_Coul {
+        padding: 15px !important;
+    }
+    .Home_mobile_p {
+        font-size: 11px !important;
+        padding: 0 5%;
+    }
+    .Home_ro {
+        padding-right: 60px !important;
+    }
+    .Footer_Parent_02 {
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+    }
+    .Footer_Parent_02 ul {
+        margin-right: 0 !important;
+    }
+    .Parent_row {
+        padding: 40px !important;
+    }
+    .Services_buttons a {
+        padding-top: 12px !important;
+        line-height: 15px;
+    }
+}
+@media(max-width:1024px) {
+    .Master_Coul {
+        padding: 20px !important;
+    }
+}
+@media (min-width: 768px) and (max-width: 1024px) {
+    footer .footer-h2 a {
+        font-size: 48px !important;
+    }
+    .service-col-effect {
+        height: 900px !important;
+        padding: 15px !important;
+    }
+    .service-col-effect-1 {
+        height: 750px !important;
+        padding: 15px !important;
+    }
+}
+@media (min-width: 600px) and (max-width: 820px) {
+    .wp-block-navigation__responsive-container-content .wp-block-navigation__container {
+        flex-direction: row !important;
+    }
+    .is-layout-flex {
+        flex-wrap: nowrap !important;
+    }
+    .wp-block-navigation-item__content {
+        padding: 1px 3px !important;
+    }
+    .wp-block-navigation__responsive-container-content {
+        justify-content: flex-start !important;
+        margin-top: 2%;
+    }
+    .Nav_but {
+        position: relative;
+        margin-top: -15%;
+        margin-left: 78%;
+    }
+}
+@media (max-width: 944px) and (min-width: 772px) {
+    .custom-lets-talk-flex {
+        flex-direction: column;
+    }
+}
+.services-button-tab1 {
+    display: flex;
+    flex-direction: column;
+}
+.services-button-tab1 .wp-block-button__link {
+    background-color: black;
+    /* Default background color for buttons */
+    border: 1px solid #ccc;
+    color: white;
+    /* Text color */
+    padding: 10px 20px;
+    margin-bottom: 10px;
+    text-align: center;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+    /* Added transition for color */
+    text-decoration: none;
+    /* Remove underline */
+    font-family: 'Poppins', sans-serif;
+    /* Correct font-family */
+    font-size: 18px;
+    /* Correct font size */
+    font-weight: 600;
+    /* Correct font weight */
+}
+.services-button-tab1 .wp-block-button__link:hover,
+.services-button-tab1 .wp-block-button__link.active {
+    background-color: #35817c;
+    /* Background color for hovered and active buttons */
+    color: white;
+    /* Text color for hovered and active buttons */
+}
+.services-content-tab1>.wp-block-group {
+    display: none;
+    /* Hide all content by default */
+}
+.services-content-tab1>.wp-block-group.active {
+    display: block;
+    /* Show active content */
+}
+.services-heading {
+    width: 100%;
+    /* Full width */
+    font-weight: bold;
+    /* Bold text */
+    margin: 0;
+    /* Remove default margin */
+    padding: 10px 0;
+    /* Optional padding for spacing */
+    text-align: center;
+    /* Center align text */
+}
+/* capcha styles  */
+/* Style for the CAPTCHA label */
+.captcha-label label {
+    font-size: 18px;
+    display: block;
+    margin-bottom: 10px;
+}
+/* Style for the CAPTCHA image */
+.captcha-image {
+    display: block;
+    margin-top: 10px;
+    max-width: 100%;
+    /* Ensure responsiveness */
+}
+/* Style for the CAPTCHA input */
+.captcha-input {
+    font-size: 32px;
+    width: 100%;
+    max-width: 300px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+
+.about-para a {
+    text-decoration: none;
+}
+
+
+@media only screen and (max-width: 768px) {
+  .search-page-image {
+    content: url('https://absolutesalespower.com/wp-content/uploads/2024/10/Absolute-Sales-Power-logo.png');
+  }
+}

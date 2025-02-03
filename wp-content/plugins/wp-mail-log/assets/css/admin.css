@@ -1,0 +1,146 @@
+.wml-topbar {
+  margin: 0 0 0 -20px;
+  padding: 10px 20px 10px 20px;
+  background: #fff;
+  border: 1px solid #ccd0d4;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.wml-branding {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+.wml-branding .wml-logo{
+  display: flex;
+}
+.wml-topbar .wml-branding h2 {
+  color: rgba(31, 41, 55, 1);
+  font-size: 1.5rem;
+  line-height: 2rem;
+  font-weight: 600;
+  align-self: flex-end;
+  margin: 0;
+}
+.wml-topbar .wml-branding .wml-version {
+  align-self: flex-end;
+}
+.wml-topbar .wml-logo svg{
+  width: 48px;
+}
+.wml-topbar .wml-nav ul {
+  display: flex;
+  margin: 0px;
+  list-style: none;
+}
+.wml-content-section {
+  padding: 15px 20px 15px 0;
+}
+
+.wml-topbar .wml-nav {
+  align-self: flex-end;
+}
+.wml-topbar .wml-nav ul li.wml-nav-active {
+  border-bottom: 2px solid #0071a1;
+  font-weight: bold;
+}
+.wml-topbar .wml-nav ul li {
+  margin-bottom: 0px;
+}
+.wml-topbar .wml-nav ul a {
+  display: block;
+  padding: 10px;
+  color: #555;
+  text-decoration: none;
+  font-size: 14px;
+}
+#wml-content .wml-control-wrapper {
+  position: relative;
+  display: flex;
+  align-items: center;
+  margin: 10px 0;
+  padding: 10px;
+  background-color: #fff;
+  border: 1px solid #ccd0d4;
+  border-radius: 3px;
+}
+.wml-review {
+  display: flex;
+  align-items: center;
+  margin: 10px 20px 2px 0px;
+  position: relative;
+  padding: 10px;
+}
+.wml-review .wml-logo,
+.wml-pro-box .wml-logo {
+  margin-right: 10px;
+}
+.wml-review .wml-logo svg,
+.wml-pro-box .wml-logo svg {
+  width: 60px;
+}
+.wml-review .wml-review-content{
+  padding-bottom: 10px;
+}
+.wml-review .wml-review-content .wml-review-desc{
+  margin: 0.5em 0;
+  padding-left: 20px;
+}
+.wml-review .wml-review-content .wml-notic-link-wrapper{
+  padding-left: 7px;
+}
+.wml-notice-link {
+  margin: 10px;
+  text-decoration: none;
+}
+.wml-notice-link span {
+  text-decoration: none;
+  margin-right: 4px;
+}
+.wml-form-row{
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  align-items: center;
+}
+.wml-submissions-filter-wrapper {
+  margin-bottom: 1.25rem;
+  border-radius: 0.125rem;
+  --tw-bg-opacity: 1;
+  background-color: rgba(255, 255, 255, var(--tw-bg-opacity));
+  padding-left: 0.75rem;
+  padding-right: 0.75rem;
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
+}
+.wml-form-row{
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  align-items: center;
+}
+.wml-tooltip {
+  position: relative;
+  display: inline-block;
+  margin-left: 3px;
+}
+
+.wml-tooltip .wml-tooltiptext {
+  visibility: hidden;
+  width: 140px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+  
+  /* Position the tooltip */
+  position: absolute;
+  z-index: 1;
+  bottom: 100%;
+  left: 50%;
+  margin-left: -70px;
+}
+
+.wml-tooltip:hover .wml-tooltiptext {
+  visibility: visible;
+}

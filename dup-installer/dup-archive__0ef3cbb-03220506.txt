@@ -1,0 +1,1014 @@
+{
+    "dup_type": "lite",
+    "created": "2025-02-03 22:05:06",
+    "version_dup": "1.5.11.2",
+    "version_wp": "6.7.1",
+    "version_db": "10.6.20",
+    "version_php": "8.2.27",
+    "version_os": "Linux",
+    "blogname": "ABSOLUTE SALES POWER",
+    "exportOnlyDB": 0,
+    "secure_on": 0,
+    "secure_pass": "$2a$08$dEL5LfDzN\/wtODRlreQWceS1GqbIiNWqKnBI7PjNKakC9Ek6G3z9G",
+    "dbhost": null,
+    "dbname": null,
+    "dbuser": null,
+    "cpnl_host": null,
+    "cpnl_user": null,
+    "cpnl_pass": null,
+    "cpnl_enable": null,
+    "wp_tableprefix": "xnxh_",
+    "mu_mode": 0,
+    "mu_generation": 0,
+    "mu_siteadmins": [
+        "admin"
+    ],
+    "subsites": [
+        {
+            "id": 1,
+            "domain": "absolutesalespower.com",
+            "path": "\/",
+            "blogname": "ABSOLUTE SALES POWER",
+            "blog_prefix": "xnxh_",
+            "filteredTables": [],
+            "adminUsers": [
+                {
+                    "ID": "1",
+                    "user_login": "Alicia Molnar",
+                    "id": "1"
+                }
+            ],
+            "fullHomeUrl": "https:\/\/absolutesalespower.com",
+            "fullSiteUrl": "https:\/\/absolutesalespower.com",
+            "uploadPath": "wp-content\/uploads",
+            "fullUploadPath": "\/home\/buwvlzz10b3x\/public_html\/wp-content\/uploads",
+            "fullUploadSafePath": "\/home\/buwvlzz10b3x\/public_html\/wp-content\/uploads",
+            "fullUploadUrl": "https:\/\/absolutesalespower.com\/wp-content\/uploads",
+            "filteredPaths": []
+        }
+    ],
+    "main_site_id": 1,
+    "mu_is_filtered": false,
+    "license_limit": 0,
+    "license_type": 0,
+    "dbInfo": {
+        "buildMode": "MYSQLDUMP",
+        "charSetList": [
+            "utf8mb4",
+            "utf8mb3"
+        ],
+        "collationList": [
+            "utf8mb3_general_ci",
+            "utf8mb4_unicode_520_ci",
+            "utf8mb4_unicode_ci"
+        ],
+        "engineList": [
+            "InnoDB",
+            "MEMORY"
+        ],
+        "isTablesUpperCase": 0,
+        "isNameUpperCase": 0,
+        "name": "i10187727_psms1",
+        "tablesBaseCount": 59,
+        "tablesFinalCount": 59,
+        "muFilteredTableCount": 0,
+        "tablesRowCount": 8863,
+        "tablesSizeOnDisk": 30310400,
+        "tablesList": {
+            "xnxh_actionscheduler_actions": {
+                "inaccurateRows": 105,
+                "insertedRows": 105,
+                "size": 196608
+            },
+            "xnxh_actionscheduler_claims": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 32768
+            },
+            "xnxh_actionscheduler_groups": {
+                "inaccurateRows": 3,
+                "insertedRows": 3,
+                "size": 32768
+            },
+            "xnxh_actionscheduler_logs": {
+                "inaccurateRows": 308,
+                "insertedRows": 308,
+                "size": 81920
+            },
+            "xnxh_commentmeta": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 49152
+            },
+            "xnxh_comments": {
+                "inaccurateRows": 0,
+                "insertedRows": 1,
+                "size": 98304
+            },
+            "xnxh_duplicator_packages": {
+                "inaccurateRows": 1,
+                "insertedRows": 1,
+                "size": 32768
+            },
+            "xnxh_ewwwio_images": {
+                "inaccurateRows": 156,
+                "insertedRows": 156,
+                "size": 81920
+            },
+            "xnxh_ewwwio_queue": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 32768
+            },
+            "xnxh_frmt_form_entry": {
+                "inaccurateRows": 0,
+                "insertedRows": 1,
+                "size": 65536
+            },
+            "xnxh_frmt_form_entry_meta": {
+                "inaccurateRows": 6,
+                "insertedRows": 6,
+                "size": 65536
+            },
+            "xnxh_frmt_form_reports": {
+                "inaccurateRows": 0,
+                "insertedRows": 1,
+                "size": 16384
+            },
+            "xnxh_frmt_form_views": {
+                "inaccurateRows": 3,
+                "insertedRows": 3,
+                "size": 81920
+            },
+            "xnxh_links": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 32768
+            },
+            "xnxh_options": {
+                "inaccurateRows": 315,
+                "insertedRows": 320,
+                "size": 2260992
+            },
+            "xnxh_postmeta": {
+                "inaccurateRows": 4336,
+                "insertedRows": 4787,
+                "size": 770048
+            },
+            "xnxh_posts": {
+                "inaccurateRows": 2129,
+                "insertedRows": 2311,
+                "size": 21938176
+            },
+            "xnxh_sales_program": {
+                "inaccurateRows": 25,
+                "insertedRows": 25,
+                "size": 16384
+            },
+            "xnxh_termmeta": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 49152
+            },
+            "xnxh_terms": {
+                "inaccurateRows": 5,
+                "insertedRows": 5,
+                "size": 49152
+            },
+            "xnxh_term_relationships": {
+                "inaccurateRows": 9,
+                "insertedRows": 9,
+                "size": 32768
+            },
+            "xnxh_term_taxonomy": {
+                "inaccurateRows": 5,
+                "insertedRows": 5,
+                "size": 49152
+            },
+            "xnxh_usermeta": {
+                "inaccurateRows": 32,
+                "insertedRows": 36,
+                "size": 49152
+            },
+            "xnxh_users": {
+                "inaccurateRows": 0,
+                "insertedRows": 1,
+                "size": 65536
+            },
+            "xnxh_wfauditevents": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 16384
+            },
+            "xnxh_wfblockediplog": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 16384
+            },
+            "xnxh_wfblocks7": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 65536
+            },
+            "xnxh_wfconfig": {
+                "inaccurateRows": 204,
+                "insertedRows": 204,
+                "size": 16384
+            },
+            "xnxh_wfcrawlers": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 16384
+            },
+            "xnxh_wffilechanges": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 16384
+            },
+            "xnxh_wffilemods": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 16384
+            },
+            "xnxh_wfhits": {
+                "inaccurateRows": 0,
+                "insertedRows": 1,
+                "size": 65536
+            },
+            "xnxh_wfhoover": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 32768
+            },
+            "xnxh_wfissues": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 81920
+            },
+            "xnxh_wfknownfilelist": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 16384
+            },
+            "xnxh_wflivetraffichuman": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 32768
+            },
+            "xnxh_wflocs": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 16384
+            },
+            "xnxh_wflogins": {
+                "inaccurateRows": 0,
+                "insertedRows": 1,
+                "size": 49152
+            },
+            "xnxh_wfls_2fa_secrets": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 32768
+            },
+            "xnxh_wfls_role_counts": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 0
+            },
+            "xnxh_wfls_settings": {
+                "inaccurateRows": 16,
+                "insertedRows": 16,
+                "size": 16384
+            },
+            "xnxh_wfnotifications": {
+                "inaccurateRows": 0,
+                "insertedRows": 1,
+                "size": 16384
+            },
+            "xnxh_wfpendingissues": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 81920
+            },
+            "xnxh_wfreversecache": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 16384
+            },
+            "xnxh_wfsecurityevents": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 16384
+            },
+            "xnxh_wfsnipcache": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 65536
+            },
+            "xnxh_wfstatus": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 49152
+            },
+            "xnxh_wftrafficrates": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 16384
+            },
+            "xnxh_wfwaffailures": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 16384
+            },
+            "xnxh_wml_entries": {
+                "inaccurateRows": 494,
+                "insertedRows": 723,
+                "size": 2637824
+            },
+            "xnxh_wpforms_logs": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 16384
+            },
+            "xnxh_wpforms_payments": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 163840
+            },
+            "xnxh_wpforms_payment_meta": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 65536
+            },
+            "xnxh_wpforms_tasks_meta": {
+                "inaccurateRows": 9,
+                "insertedRows": 9,
+                "size": 16384
+            },
+            "xnxh_yoast_indexable": {
+                "inaccurateRows": 340,
+                "insertedRows": 372,
+                "size": 245760
+            },
+            "xnxh_yoast_indexable_hierarchy": {
+                "inaccurateRows": 309,
+                "insertedRows": 369,
+                "size": 65536
+            },
+            "xnxh_yoast_migrations": {
+                "inaccurateRows": 24,
+                "insertedRows": 24,
+                "size": 32768
+            },
+            "xnxh_yoast_primary_term": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 49152
+            },
+            "xnxh_yoast_seo_links": {
+                "inaccurateRows": 29,
+                "insertedRows": 30,
+                "size": 49152
+            }
+        },
+        "lowerCaseTableNames": 0,
+        "dbEngine": "MariaDB",
+        "version": "10.6.20",
+        "versionComment": "MariaDB Server",
+        "viewCount": 0,
+        "procCount": 0,
+        "funcCount": 0,
+        "triggerList": []
+    },
+    "packInfo": {
+        "packageId": 1,
+        "packageName": "20250203_absolutesalespower",
+        "packageHash": "0ef3cbb-03220506",
+        "secondaryHash": "c6845f1-03220506"
+    },
+    "fileInfo": {
+        "dirCount": 1188,
+        "fileCount": 8238,
+        "size": 211377157
+    },
+    "wpInfo": {
+        "version": "6.7.1",
+        "is_multisite": false,
+        "network_id": 1,
+        "targetRoot": "\/home\/buwvlzz10b3x\/public_html",
+        "targetPaths": [
+            "\/home\/buwvlzz10b3x\/public_html"
+        ],
+        "adminUsers": [
+            {
+                "ID": "1",
+                "user_login": "Alicia Molnar",
+                "id": "1"
+            }
+        ],
+        "configs": {
+            "defines": {
+                "ABSPATH": {
+                    "value": "\/home\/buwvlzz10b3x\/public_html\/",
+                    "inWpConfig": true
+                },
+                "DB_CHARSET": {
+                    "value": "utf8",
+                    "inWpConfig": true
+                },
+                "DB_COLLATE": {
+                    "value": "",
+                    "inWpConfig": true
+                },
+                "AUTH_KEY": {
+                    "value": "SNQct2gsx7rlTj92U6yekn2wIS502Syb46GxK8PImv3mcJChIGy80vFI2hQJmedB",
+                    "inWpConfig": true
+                },
+                "SECURE_AUTH_KEY": {
+                    "value": "rKebloBYQCNWRJOq7y0NN0jbkvXWA1KuzJ9nxLWPk8E2x4MCHuuCQJbMmIwf0yYa",
+                    "inWpConfig": true
+                },
+                "LOGGED_IN_KEY": {
+                    "value": "taA4Ec16alvf7DF7EI3iWRGuuRd4YRG6W26dfPaDi24Vaggu0ZVtOKeizB7Sff69",
+                    "inWpConfig": true
+                },
+                "NONCE_KEY": {
+                    "value": "134kaucKEqvv2TS4gkQVzMYq1h0YgUObRfwMGn0E3EON4LyzsEX0dmV25zzNt196",
+                    "inWpConfig": true
+                },
+                "AUTH_SALT": {
+                    "value": "UmeuY9LEhAafbF7OkYeqHqa83PGpGTByc0SWnd26RYxKcRi2S2qnVCwU0F9PyBOD",
+                    "inWpConfig": true
+                },
+                "SECURE_AUTH_SALT": {
+                    "value": "mYU3JD3AtYk3ULqgi8lpKLdz37zBILTIsc0nzytyHgmdnGnBOD5Xq1pzGGsKn4Ui",
+                    "inWpConfig": true
+                },
+                "LOGGED_IN_SALT": {
+                    "value": "kDaYnjmGCxkgD20ajw0Wkx3w3lmTszefJBolzunNzr55ld5j7sI74wCLQ1UVtpzr",
+                    "inWpConfig": true
+                },
+                "NONCE_SALT": {
+                    "value": "MSpFSbibbg9bKTJFTQ3dhqHKj7mnOrkEjtznU7FPODMOhcUftfYSaDGuqW18gI43",
+                    "inWpConfig": true
+                },
+                "WP_CONTENT_DIR": {
+                    "value": "\/home\/buwvlzz10b3x\/public_html\/wp-content",
+                    "inWpConfig": false
+                },
+                "WP_CONTENT_URL": {
+                    "value": "https:\/\/absolutesalespower.com\/wp-content",
+                    "inWpConfig": false
+                },
+                "WP_PLUGIN_DIR": {
+                    "value": "\/home\/buwvlzz10b3x\/public_html\/wp-content\/plugins",
+                    "inWpConfig": false
+                },
+                "WP_PLUGIN_URL": {
+                    "value": "https:\/\/absolutesalespower.com\/wp-content\/plugins",
+                    "inWpConfig": false
+                },
+                "PLUGINDIR": {
+                    "value": "wp-content\/plugins",
+                    "inWpConfig": false
+                },
+                "AUTOSAVE_INTERVAL": {
+                    "value": 60,
+                    "inWpConfig": false
+                },
+                "WP_POST_REVISIONS": {
+                    "value": true,
+                    "inWpConfig": false
+                },
+                "COOKIE_DOMAIN": {
+                    "value": "",
+                    "inWpConfig": false
+                },
+                "MULTISITE": {
+                    "value": false,
+                    "inWpConfig": false
+                },
+                "WP_DEBUG": {
+                    "value": false,
+                    "inWpConfig": true
+                },
+                "SCRIPT_DEBUG": {
+                    "value": false,
+                    "inWpConfig": false
+                },
+                "WP_DEBUG_LOG": {
+                    "value": false,
+                    "inWpConfig": false
+                },
+                "WP_DEBUG_DISPLAY": {
+                    "value": true,
+                    "inWpConfig": false
+                },
+                "WP_MEMORY_LIMIT": {
+                    "value": "40M",
+                    "inWpConfig": false
+                },
+                "WP_MAX_MEMORY_LIMIT": {
+                    "value": "256M",
+                    "inWpConfig": false
+                },
+                "WP_CACHE": {
+                    "value": false,
+                    "inWpConfig": false
+                },
+                "WP_TEMP_DIR": {
+                    "value": "\/home\/buwvlzz10b3x\/public_html\/wp-content\/uploads",
+                    "inWpConfig": true
+                },
+                "WP_LANG_DIR": {
+                    "value": "\/home\/buwvlzz10b3x\/public_html\/wp-content\/languages",
+                    "inWpConfig": false
+                },
+                "WP_CRON_LOCK_TIMEOUT": {
+                    "value": 60,
+                    "inWpConfig": false
+                },
+                "COOKIEPATH": {
+                    "value": "\/",
+                    "inWpConfig": false
+                },
+                "SITECOOKIEPATH": {
+                    "value": "\/",
+                    "inWpConfig": false
+                },
+                "ADMIN_COOKIE_PATH": {
+                    "value": "\/wp-admin",
+                    "inWpConfig": false
+                },
+                "PLUGINS_COOKIE_PATH": {
+                    "value": "\/wp-content\/plugins",
+                    "inWpConfig": false
+                },
+                "TEMPLATEPATH": {
+                    "value": "\/home\/buwvlzz10b3x\/public_html\/wp-content\/themes\/absolute-sales-power",
+                    "inWpConfig": false
+                },
+                "STYLESHEETPATH": {
+                    "value": "\/home\/buwvlzz10b3x\/public_html\/wp-content\/themes\/absolute-sales-power",
+                    "inWpConfig": false
+                },
+                "EMPTY_TRASH_DAYS": {
+                    "value": 30,
+                    "inWpConfig": false
+                },
+                "FORCE_SSL_ADMIN": {
+                    "value": true,
+                    "inWpConfig": false
+                },
+                "WPMU_PLUGIN_DIR": {
+                    "value": "\/home\/buwvlzz10b3x\/public_html\/wp-content\/mu-plugins",
+                    "inWpConfig": false
+                },
+                "WPMU_PLUGIN_URL": {
+                    "value": "https:\/\/absolutesalespower.com\/wp-content\/mu-plugins",
+                    "inWpConfig": false
+                },
+                "MUPLUGINDIR": {
+                    "value": "wp-content\/mu-plugins",
+                    "inWpConfig": false
+                }
+            },
+            "realValues": {
+                "siteUrl": "https:\/\/absolutesalespower.com",
+                "homeUrl": "https:\/\/absolutesalespower.com",
+                "loginUrl": "https:\/\/absolutesalespower.com\/wp-login.php",
+                "contentUrl": "https:\/\/absolutesalespower.com\/wp-content",
+                "uploadBaseUrl": "https:\/\/absolutesalespower.com\/wp-content\/uploads",
+                "pluginsUrl": "https:\/\/absolutesalespower.com\/wp-content\/plugins",
+                "mupluginsUrl": "https:\/\/absolutesalespower.com\/wp-content\/mu-plugins",
+                "themesUrl": "https:\/\/absolutesalespower.com\/wp-content\/themes",
+                "originalPaths": {
+                    "home": "\/home\/buwvlzz10b3x\/public_html",
+                    "abs": "\/home\/buwvlzz10b3x\/public_html",
+                    "wpconfig": "\/home\/buwvlzz10b3x\/public_html",
+                    "wpcontent": "\/home\/buwvlzz10b3x\/public_html\/wp-content",
+                    "uploads": "\/home\/buwvlzz10b3x\/public_html\/wp-content\/uploads",
+                    "plugins": "\/home\/buwvlzz10b3x\/public_html\/wp-content\/plugins",
+                    "muplugins": "\/home\/buwvlzz10b3x\/public_html\/wp-content\/mu-plugins",
+                    "themes": "\/home\/buwvlzz10b3x\/public_html\/wp-content\/themes"
+                },
+                "archivePaths": {
+                    "home": "\/home\/buwvlzz10b3x\/public_html",
+                    "abs": "\/home\/buwvlzz10b3x\/public_html",
+                    "wpconfig": "\/home\/buwvlzz10b3x\/public_html",
+                    "wpcontent": "\/home\/buwvlzz10b3x\/public_html\/wp-content",
+                    "uploads": "\/home\/buwvlzz10b3x\/public_html\/wp-content\/uploads",
+                    "plugins": "\/home\/buwvlzz10b3x\/public_html\/wp-content\/plugins",
+                    "muplugins": "\/home\/buwvlzz10b3x\/public_html\/wp-content\/mu-plugins",
+                    "themes": "\/home\/buwvlzz10b3x\/public_html\/wp-content\/themes"
+                }
+            }
+        },
+        "plugins": {
+            "akismet\/akismet.php": {
+                "slug": "akismet\/akismet.php",
+                "name": "Akismet Anti-spam: Spam Protection",
+                "version": "5.3.5",
+                "pluginURI": "https:\/\/akismet.com\/",
+                "author": "Automattic - Anti-spam Team",
+                "authorURI": "https:\/\/automattic.com\/wordpress-plugins\/",
+                "description": "Used by millions, Akismet is quite possibly the best way in the world to <strong>protect your blog from spam<\/strong>. Akismet Anti-spam keeps your site protected even while you sleep. To get started: activate the Akismet plugin and then go to your Akismet Settings page to set up your API key.",
+                "title": "Akismet Anti-spam: Spam Protection",
+                "networkActive": false,
+                "active": false,
+                "mustUse": false,
+                "dropIns": false
+            },
+            "all-in-one-wp-migration\/all-in-one-wp-migration.php": {
+                "slug": "all-in-one-wp-migration\/all-in-one-wp-migration.php",
+                "name": "All-in-One WP Migration",
+                "version": "7.88",
+                "pluginURI": "https:\/\/servmask.com\/",
+                "author": "ServMask",
+                "authorURI": "https:\/\/servmask.com\/",
+                "description": "All-in-One WP Migration makes moving your entire WordPress site simple. Export or import your database, media, plugins, and themes with just a few clicks.",
+                "title": "All-in-One WP Migration",
+                "networkActive": false,
+                "active": true,
+                "mustUse": false,
+                "dropIns": false
+            },
+            "all-in-one-wp-migration-unlimited-extension\/all-in-one-wp-migration-unlimited-extension.php": {
+                "slug": "all-in-one-wp-migration-unlimited-extension\/all-in-one-wp-migration-unlimited-extension.php",
+                "name": "All-in-One WP Migration Unlimited Extension",
+                "version": "2.64",
+                "pluginURI": "https:\/\/servmask.com\/",
+                "author": "ServMask",
+                "authorURI": "https:\/\/servmask.com\/",
+                "description": "Extension for All-in-One WP Migration that enables unlimited size exports and imports",
+                "title": "All-in-One WP Migration Unlimited Extension",
+                "networkActive": false,
+                "active": true,
+                "mustUse": false,
+                "dropIns": false
+            },
+            "contact-form-7\/wp-contact-form-7.php": {
+                "slug": "contact-form-7\/wp-contact-form-7.php",
+                "name": "Contact Form 7",
+                "version": "6.0.3",
+                "pluginURI": "https:\/\/contactform7.com\/",
+                "author": "Takayuki Miyoshi",
+                "authorURI": "https:\/\/ideasilo.wordpress.com\/",
+                "description": "Just another contact form plugin. Simple but flexible.",
+                "title": "Contact Form 7",
+                "networkActive": false,
+                "active": true,
+                "mustUse": false,
+                "dropIns": false
+            },
+            "contact-form-7-paypal-add-on\/paypal.php": {
+                "slug": "contact-form-7-paypal-add-on\/paypal.php",
+                "name": "Contact Form 7 - PayPal & Stripe Add-on",
+                "version": "2.3.2",
+                "pluginURI": "https:\/\/wpplugin.org\/downloads\/contact-form-7-paypal-add-on\/",
+                "author": "Scott Paterson",
+                "authorURI": "https:\/\/wpplugin.org\/downloads\/contact-form-7-paypal-add-on\/",
+                "description": "Integrates PayPal & Stripe with Contact Form 7",
+                "title": "Contact Form 7 - PayPal & Stripe Add-on",
+                "networkActive": false,
+                "active": true,
+                "mustUse": false,
+                "dropIns": false
+            },
+            "create-block-theme\/create-block-theme.php": {
+                "slug": "create-block-theme\/create-block-theme.php",
+                "name": "Create Block Theme",
+                "version": "2.6.0",
+                "pluginURI": "https:\/\/wordpress.org\/plugins\/create-block-theme",
+                "author": "WordPress.org",
+                "authorURI": "https:\/\/wordpress.org\/",
+                "description": "Generates a block theme",
+                "title": "Create Block Theme",
+                "networkActive": false,
+                "active": true,
+                "mustUse": false,
+                "dropIns": false
+            },
+            "duplicator\/duplicator.php": {
+                "slug": "duplicator\/duplicator.php",
+                "name": "Duplicator",
+                "version": "1.5.11.2",
+                "pluginURI": "https:\/\/duplicator.com\/",
+                "author": "Duplicator",
+                "authorURI": "https:\/\/duplicator.com\/",
+                "description": "Migrate and backup a copy of your WordPress files and database. Duplicate and move a site from one location to another quickly.",
+                "title": "Duplicator",
+                "networkActive": false,
+                "active": true,
+                "mustUse": false,
+                "dropIns": false
+            },
+            "ewww-image-optimizer\/ewww-image-optimizer.php": {
+                "slug": "ewww-image-optimizer\/ewww-image-optimizer.php",
+                "name": "EWWW Image Optimizer",
+                "version": "8.0.0",
+                "pluginURI": "https:\/\/wordpress.org\/plugins\/ewww-image-optimizer\/",
+                "author": "Exactly WWW",
+                "authorURI": "https:\/\/ewww.io\/",
+                "description": "Smaller Images, Faster Sites, Happier Visitors. Comprehensive image optimization that doesn't require a degree in rocket science.",
+                "title": "EWWW Image Optimizer",
+                "networkActive": false,
+                "active": true,
+                "mustUse": false,
+                "dropIns": false
+            },
+            "limit-login-attempts-reloaded\/limit-login-attempts-reloaded.php": {
+                "slug": "limit-login-attempts-reloaded\/limit-login-attempts-reloaded.php",
+                "name": "Limit Login Attempts Reloaded",
+                "version": "2.26.16",
+                "pluginURI": "",
+                "author": "Limit Login Attempts Reloaded",
+                "authorURI": "https:\/\/www.limitloginattempts.com\/",
+                "description": "Block excessive login attempts and protect your site against brute force attacks. Simple, yet powerful tools to improve site performance.",
+                "title": "Limit Login Attempts Reloaded",
+                "networkActive": false,
+                "active": false,
+                "mustUse": false,
+                "dropIns": false
+            },
+            "wordfence\/wordfence.php": {
+                "slug": "wordfence\/wordfence.php",
+                "name": "Wordfence Security",
+                "version": "8.0.3",
+                "pluginURI": "https:\/\/www.wordfence.com\/",
+                "author": "Wordfence",
+                "authorURI": "https:\/\/www.wordfence.com\/",
+                "description": "Wordfence Security - Anti-virus, Firewall and Malware Scan",
+                "title": "Wordfence Security",
+                "networkActive": false,
+                "active": false,
+                "mustUse": false,
+                "dropIns": false
+            },
+            "wp-mail-log\/wp-mail-log.php": {
+                "slug": "wp-mail-log\/wp-mail-log.php",
+                "name": "WP Mail Log",
+                "version": "1.1.3",
+                "pluginURI": "https:\/\/wpvibes.com\/",
+                "author": "WPVibes",
+                "authorURI": "https:\/\/wpvibes.com\/",
+                "description": "WP Mail Log helps you to Log and view all emails from WordPress.",
+                "title": "WP Mail Log",
+                "networkActive": false,
+                "active": true,
+                "mustUse": false,
+                "dropIns": false
+            },
+            "wordpress-seo\/wp-seo.php": {
+                "slug": "wordpress-seo\/wp-seo.php",
+                "name": "Yoast SEO",
+                "version": "24.3",
+                "pluginURI": "https:\/\/yoa.st\/1uj",
+                "author": "Team Yoast",
+                "authorURI": "https:\/\/yoa.st\/1uk",
+                "description": "The first true all-in-one SEO solution for WordPress, including on-page content analysis, XML sitemaps and much more.",
+                "title": "Yoast SEO",
+                "networkActive": false,
+                "active": true,
+                "mustUse": false,
+                "dropIns": false
+            },
+            "loader.php": {
+                "slug": "loader.php",
+                "name": "Pantheon MU Plugin Loader",
+                "version": "1.0",
+                "pluginURI": "",
+                "author": "Pantheon Systems",
+                "authorURI": "https:\/\/pantheon.io",
+                "description": "Loads the MU plugins required to run the site",
+                "title": "Pantheon MU Plugin Loader",
+                "networkActive": false,
+                "active": false,
+                "mustUse": true,
+                "dropIns": false
+            },
+            "automation-by-installatron.php": {
+                "slug": "automation-by-installatron.php",
+                "name": "WordPress automation by Installatron",
+                "version": "",
+                "pluginURI": "",
+                "author": "",
+                "authorURI": "",
+                "description": "Management of this WordPress site is provided by Installatron.",
+                "title": "WordPress automation by Installatron",
+                "networkActive": false,
+                "active": false,
+                "mustUse": true,
+                "dropIns": false
+            }
+        },
+        "themes": {
+            "absolute-sales-power": {
+                "slug": "absolute-sales-power",
+                "themeName": "absolute sales power",
+                "version": "1.0",
+                "themeURI": "",
+                "parentTheme": false,
+                "template": "absolute-sales-power",
+                "stylesheet": "absolute-sales-power",
+                "description": "",
+                "author": "Alicia Molnar",
+                "authorURI": "",
+                "tags": [
+                    "one-column",
+                    "custom-colors",
+                    "custom-menu",
+                    "custom-logo",
+                    "editor-style",
+                    "featured-images",
+                    "full-site-editing",
+                    "block-patterns",
+                    "rtl-language-support",
+                    "sticky-post",
+                    "threaded-comments",
+                    "translation-ready",
+                    "wide-blocks",
+                    "block-styles",
+                    "style-variations",
+                    "accessibility-ready",
+                    "blog",
+                    "portfolio",
+                    "news"
+                ],
+                "isAllowed": true,
+                "isActive": true,
+                "defaultTheme": false
+            },
+            "twentytwentyfive": {
+                "slug": "twentytwentyfive",
+                "themeName": "Twenty Twenty-Five",
+                "version": "1.0",
+                "themeURI": "https:\/\/wordpress.org\/themes\/twentytwentyfive\/",
+                "parentTheme": false,
+                "template": "twentytwentyfive",
+                "stylesheet": "twentytwentyfive",
+                "description": "Twenty Twenty-Five emphasizes simplicity and adaptability. It offers flexible design options, supported by a variety of patterns for different page types, such as services and landing pages, making it ideal for building personal blogs, professional portfolios, online magazines, or business websites. Its templates cater to various blog styles, from text-focused to image-heavy layouts. Additionally, it supports international typography and diverse color palettes, ensuring accessibility and customization for users worldwide.",
+                "author": "the WordPress team",
+                "authorURI": "https:\/\/wordpress.org",
+                "tags": [
+                    "one-column",
+                    "custom-colors",
+                    "custom-menu",
+                    "custom-logo",
+                    "editor-style",
+                    "featured-images",
+                    "full-site-editing",
+                    "block-patterns",
+                    "rtl-language-support",
+                    "sticky-post",
+                    "threaded-comments",
+                    "translation-ready",
+                    "wide-blocks",
+                    "block-styles",
+                    "style-variations",
+                    "accessibility-ready",
+                    "blog",
+                    "portfolio",
+                    "news"
+                ],
+                "isAllowed": true,
+                "isActive": false,
+                "defaultTheme": true
+            },
+            "twentytwentyfour": {
+                "slug": "twentytwentyfour",
+                "themeName": "Twenty Twenty-Four",
+                "version": "1.3",
+                "themeURI": "https:\/\/wordpress.org\/themes\/twentytwentyfour\/",
+                "parentTheme": false,
+                "template": "twentytwentyfour",
+                "stylesheet": "twentytwentyfour",
+                "description": "Twenty Twenty-Four is designed to be flexible, versatile and applicable to any website. Its collection of templates and patterns tailor to different needs, such as presenting a business, blogging and writing or showcasing work. A multitude of possibilities open up with just a few adjustments to color and typography. Twenty Twenty-Four comes with style variations and full page designs to help speed up the site building process, is fully compatible with the site editor, and takes advantage of new design tools introduced in WordPress 6.4.",
+                "author": "the WordPress team",
+                "authorURI": "https:\/\/wordpress.org",
+                "tags": [
+                    "one-column",
+                    "custom-colors",
+                    "custom-menu",
+                    "custom-logo",
+                    "editor-style",
+                    "featured-images",
+                    "full-site-editing",
+                    "block-patterns",
+                    "rtl-language-support",
+                    "sticky-post",
+                    "threaded-comments",
+                    "translation-ready",
+                    "wide-blocks",
+                    "block-styles",
+                    "style-variations",
+                    "accessibility-ready",
+                    "blog",
+                    "portfolio",
+                    "news"
+                ],
+                "isAllowed": true,
+                "isActive": false,
+                "defaultTheme": false
+            },
+            "twentytwentythree": {
+                "slug": "twentytwentythree",
+                "themeName": "Twenty Twenty-Three",
+                "version": "1.6",
+                "themeURI": "https:\/\/wordpress.org\/themes\/twentytwentythree",
+                "parentTheme": false,
+                "template": "twentytwentythree",
+                "stylesheet": "twentytwentythree",
+                "description": "Twenty Twenty-Three is designed to take advantage of the new design tools introduced in WordPress 6.1. With a clean, blank base as a starting point, this default theme includes ten diverse style variations created by members of the WordPress community. Whether you want to build a complex or incredibly simple website, you can do it quickly and intuitively through the bundled styles or dive into creation and full customization yourself.",
+                "author": "the WordPress team",
+                "authorURI": "https:\/\/wordpress.org",
+                "tags": [
+                    "one-column",
+                    "custom-colors",
+                    "custom-menu",
+                    "custom-logo",
+                    "editor-style",
+                    "featured-images",
+                    "full-site-editing",
+                    "block-patterns",
+                    "rtl-language-support",
+                    "sticky-post",
+                    "threaded-comments",
+                    "translation-ready",
+                    "wide-blocks",
+                    "block-styles",
+                    "style-variations",
+                    "accessibility-ready",
+                    "blog",
+                    "portfolio",
+                    "news"
+                ],
+                "isAllowed": true,
+                "isActive": false,
+                "defaultTheme": false
+            },
+            "twentytwentytwo": {
+                "slug": "twentytwentytwo",
+                "themeName": "Twenty Twenty-Two",
+                "version": "1.9",
+                "themeURI": "https:\/\/wordpress.org\/themes\/twentytwentytwo\/",
+                "parentTheme": false,
+                "template": "twentytwentytwo",
+                "stylesheet": "twentytwentytwo",
+                "description": "Built on a solidly designed foundation, Twenty Twenty-Two embraces the idea that everyone deserves a truly unique website. The theme\u2019s subtle styles are inspired by the diversity and versatility of birds: its typography is lightweight yet strong, its color palette is drawn from nature, and its layout elements sit gently on the page. The true richness of Twenty Twenty-Two lies in its opportunity for customization. The theme is built to take advantage of the Site Editor features introduced in WordPress 5.9, which means that colors, typography, and the layout of every single page on your site can be customized to suit your vision. It also includes dozens of block patterns, opening the door to a wide range of professionally designed layouts in just a few clicks. Whether you\u2019re building a single-page website, a blog, a business website, or a portfolio, Twenty Twenty-Two will help you create a site that is uniquely yours.",
+                "author": "the WordPress team",
+                "authorURI": "https:\/\/wordpress.org\/",
+                "tags": [
+                    "one-column",
+                    "custom-colors",
+                    "custom-menu",
+                    "custom-logo",
+                    "editor-style",
+                    "featured-images",
+                    "full-site-editing",
+                    "block-patterns",
+                    "rtl-language-support",
+                    "sticky-post",
+                    "threaded-comments",
+                    "style-variations",
+                    "wide-blocks",
+                    "block-styles",
+                    "accessibility-ready",
+                    "blog",
+                    "portfolio",
+                    "news"
+                ],
+                "isAllowed": true,
+                "isActive": false,
+                "defaultTheme": false
+            }
+        }
+    },
+    "defaultStorageId": -1,
+    "components": [
+        "package_component_db",
+        "package_component_core",
+        "package_component_plugins",
+        "package_component_themes",
+        "package_component_uploads",
+        "package_component_other"
+    ],
+    "opts_delete": "[\"duplicator_ui_view_state\",\"duplicator_package_active\",\"duplicator_settings\",\"duplicator_is_pro_enable_notice_dismissed\"]",
+    "brand": {
+        "name": "Duplicator",
+        "isDefault": true,
+        "logo": "<i class=\"fa fa-bolt fa-sm\"><\/i> Duplicator",
+        "enabled": false,
+        "style": []
+    },
+    "overwriteInstallerParams": {
+        "blogname": {
+            "value": "ABSOLUTE SALES POWER"
+        }
+    },
+    "installer_base_name": "installer.php.bak",
+    "installer_backup_name": "20250203_absolutesalespower_0ef3cbb2fadfb9273268_20250203220506_installer-backup.php",
+    "package_name": "20250203_absolutesalespower_0ef3cbb2fadfb9273268_20250203220506_archive.zip",
+    "package_hash": "0ef3cbb-03220506",
+    "package_notes": ""
+}
